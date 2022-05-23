@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color: rgb(195, 195, 195);
+      }
+
+      h1 {
+        padding-left: 20px;
+        
+      }
+      .full-name {
+        margin-left: 20px;
+      }
+      .type-box {
+        margin-left: 20px;
+        height: 40px;
+        width: 300px;
+        margin-top: 10px;
+        background-color: rgb(239, 229, 229);
+        
+
+
+      }
+      .image {
+        height: 600px;
+        width: 400px;
+        object-fit: cover;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+        /* border-radius: 5px; */
+        /* filter: brightness(60%); */
+        cursor: pointer;
+        margin-bottom:2px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+      }
+      .box {
+        height: 600px;
+        width: 400px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+        background-color:white;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        /* border-radius: 5px; */
+        /* background: rgb(189, 187, 187); */
+        
+      
+      }
+      .flex-container {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+
+      }
+      .bottom-left {
+        position: absolute;
+        padding-top: 300px;
+        margin-left: 400px;
+        font-size: 30px;
+        color: white;
+  
+        
+      }
+      .bottom-right{
+        position: absolute;
+        padding-top: 525px;
+        margin-left: 550px;
+        font-size: 30px;
+        color: white;
+
+        
+
+      }
+      h1 {
+        padding-top:5px;
+      }
+      .first{
+        padding-left:20px;
+        font-size:20px;
+      }
+      .second{
+        margin-left:20px;
+        margin-top:10px;
+        height:30px;
+        width:300px;
+        margin-bottom:10px;
+
+      }
+      .third{
+        padding-left:20px;
+        font-size:20px;
+        margin-bottom:10px;
+        margin-top:10px;
+
+      }
+      .fourth{
+        padding-left:20px;
+        font-size:20px;
+        margin-bottom:10px;
+        margin-top:10px;
+
+      }
+        
+      .fifth{
+        padding-left:20px;
+        font-size:20px;
+        margin-bottom:10px;
+        margin-top:10px;
+
+      }
+      .sixth{
+        padding-left:20px;
+        font-size:20px;
+        margin-bottom:10px;
+        margin-top:10px;
+
+      }
+      .seventh{
+        /* margin-left:20px; */
+        font-size:15px;
+        /* margin-bottom:10px;
+        margin-top:0px; */
+        height:17px;
+        width:17px;
+        margin: 3px 3px 10px 20px;
+      }
+      .eight{
+        margin-bottom:0px;
+        margin-top:0px;
+        height:17px;
+        font-size:15px;
+        padding-left:5px;
+      }
+   
+      .terms{
+        padding-left:50px;
+        font-size:15px;
+        margin-bottom:0px;
+        padding-left:50px;
+        color:blue;
+        font-weight:bold;
+
+      }
+      .button{
+        background-color:rgb(0, 191, 255);
+        color:white;
+        border:none;
+        border-radius:2px;
+        height:35px;
+        width:315px;
+        margin-left:20px;
+        font-size:20px;
+      }
+      .txtarea{
+        margin: 5px 0 0 20px;
+      }
+    
+        
+
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="box">
+       
+        <forms>
+          <h1>Contact Form</h1>
+          <label class="first" for="name">Full Name:</label><br>
+          <input class="second" type="text" name="name" id="name" placeholder="ex. ABC" required /><br>
+          <label class="third" for="email">Your Email:</label><br>
+          <input class="second" type="email" name="email" id="email" placeholder="ex. xyz@gmail.com" required /><br>
+          <label class="sixth" for="password">Password:</label><br>
+          <input class="second" type="password" name="password" id="password" required /><br>
+          <textarea class="txtarea" cols="40" rows="5" maxlength="250" placeholder="Enter your query here"></textarea>
+          <input class="seventh" type="checkbox" name="checkbox" id="checkbox" required/>
+          <label class="eight" for="text">By Signing up,you agree to the</label><br>
+          <div class="terms"><u> <a href="#"> Play Term of Service</a></u></div></br>
+          <button class="button">Send Message</button>
+        
+
+        </forms>
+      </div>
+      <img class="image" src="Img/1033.png" />
+      <!-- <p class="bottom-left">You give life to what you give
+      </br> energy to.</p> -->
+      <!-- <p class="bottom-right"> <big>$9.99</big> /month</p> -->
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><>
+  </body>
+</html>
